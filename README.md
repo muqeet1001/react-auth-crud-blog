@@ -1,12 +1,62 @@
-# React + Vite
+ # React Blog Platform (Frontend + Service-based Backend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete blog management application built with **React**.  
+The backend functionality (authentication, database, storage) is powered by external services (e.g., Appwrite, Firebase, or Supabase).  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features & Capabilities
 
-## Expanding the ESLint configuration
+### 🔑 Authentication
+- User Signup with validation  
+- User Login with session handling  
+- Logout functionality  
+- Access control (only logged-in users can read/write posts)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📝 Blog Management (CRUD)
+- Create new posts with title, slug, and description  
+- Edit posts (only by the author)  
+- Delete posts (only by the author)  
+- View all posts on the home page  
+
+### 🎨 Rich Content Editor
+- Rich text formatting (bold, italic, underline, headings)  
+- Text colors & background colors  
+- Image upload support  
+- Active/Inactive post status option  
+
+### 📸 Media Handling
+- Upload and display images in posts  
+- Image compression (optimization planned)  
+
+### 🌐 Routing & Navigation
+- Home page, Login, Signup, and Post pages with **React Router**  
+- Protected routes for authenticated users  
+
+### 📂 State & UI Enhancements
+- State management for form inputs and posts  
+- Loading indicators for actions  
+- Error handling and validation messages  
+
+### 🛠️ Assignments / Learning
+- Reload state after actions  
+- Add loading states to buttons  
+- Explore reference handling in forms  
+
+### ⚙️ Deployment
+- Production-ready build setup  
+- Hosting with **Netlify / Vercel**  
+- Secure environment setup  
+
+---
+
+## 📌 Portfolio Note
+This project is a **capstone-level frontend project** that demonstrates:
+- Using React for UI + Routing  
+- Handling Authentication & CRUD with a service backend  
+- Rich text editor integration  
+- Deployment flow to production  
+
+It’s designed to showcase **real-world frontend + service integration skills**.
+
+---
